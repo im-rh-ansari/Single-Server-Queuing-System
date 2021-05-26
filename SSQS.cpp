@@ -140,11 +140,11 @@ void depart(){
 void report(){
     cout<<"\nSIMULATION RESULT"<<endl;
     cout<<"********************************"<<endl;
-    cout<<"Total Delay: "<<total_of_delays<<endl;
+    cout<<"Total Delay: \t\t\t"<<total_of_delays<<endl;
     cout<<"Average Delay in Queue: \t"<<total_of_delays/num_custs_delayed<<endl<<endl;
-    cout<<"Area Number in Queue: "<<area_num_in_q<<endl;
+    cout<<"Area Number in Queue: \t\t"<<area_num_in_q<<endl;
     cout<<"Average Number in Queue: \t"<<area_num_in_q/sim_time<<endl<<endl;
-    cout<<"Area Server Status: "<<area_server_status<<endl;
+    cout<<"Area Server Status: \t\t"<<area_server_status<<endl;
     cout<<"Server Utilization: \t\t"<<area_server_status/sim_time<<endl<<endl;
     cout<<"Time Simulation Ended: \t\t"<<sim_time<<endl;
 }
